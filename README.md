@@ -22,4 +22,4 @@ The first row or col to be moved is always the closest one to one of the edges, 
 From there, continue moving the next one farther to the direction until reaching the final row or col 
 opposite to the direction of the move.
 
-I tried to solve this using State Monad.
+I tried to solve this using State Monad, but then realized that only used State, without flatMap.
